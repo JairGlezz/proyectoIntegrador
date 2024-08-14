@@ -1,0 +1,249 @@
+/* Asegúrate de que el cuerpo y html llenen toda la pantalla */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Estilo para el contenedor principal que centra el contenido y agrega márgenes */
+.main-container {
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en una columna */
+  align-items: center; /* Centra horizontalmente */
+  justify-content: center; /* Centra verticalmente */
+  min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura de la ventana */
+  text-align: center; /* Centra el texto dentro del contenedor */
+  padding: 20px; /* Espacio interior del contenedor para los bordes */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo para la imagen y el título */
+.img-cerdo {
+  display: flex;
+  align-items: center; /* Alinea la imagen y el h2 en el centro verticalmente */
+  gap: 20px; /* Espacio entre la imagen y el h2 */
+  margin-bottom: 20px; /* Espacio debajo de la imagen y el título */
+  justify-content: flex-start; /* Alinea el contenido al inicio horizontalmente */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  max-width: 1200px; /* Máximo ancho para evitar que el contenido se extienda demasiado */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+.img-cerdo h2{
+  color: #027B76;
+}
+
+/* Estilo para la imagen del cerdo */
+.img-cerdo img {
+  max-width: 40px; /* Ajusta este valor al tamaño deseado */
+}
+
+.center-left {
+  display: flex;
+  justify-content: flex-start; /* Alinea el contenido al inicio horizontalmente */
+  width: 100%;
+  max-width: 1200px; /* Máximo ancho para evitar que el contenido se extienda demasiado */
+  margin-bottom: 20px; /* Espacio debajo de h1 */
+  text-align: left; /* Alinea el texto a la izquierda */
+  color: #004D80;
+}
+
+/* Estilo para el contenedor del texto y el video */
+.flex-container {
+  display: flex;
+  justify-content: center; /* Centra los elementos dentro del contenedor */
+  align-items: flex-start; /* Alinea los elementos al principio verticalmente */
+  gap: 20px; /* Espacio entre el texto y el video */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+  max-width: 1200px; /* Máximo ancho para evitar que el contenido se extienda demasiado */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+/* Estilo para el contenedor del texto */
+.container {
+  flex: 1;
+  max-width: 600px; /* Opcional: máximo ancho para el contenedor de texto */
+  text-align: justify; /* Justifica el texto dentro del contenedor */
+  font-size: 19px;
+}
+
+.btn-conocenos{
+  display: inline-block; /* Asegura que el botón se comporte como un elemento en línea */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  margin-top: 20px; /* Espacio superior del botón */
+  background-color: #004D80; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  text-align: center; /* Alinea el texto en el centro del botón */
+  text-decoration: none; /* Quita la subrayado del enlace */
+  border-radius: 5px; /* Bordes redondeados del botón */
+  font-size: 16px; /* Tamaño de la fuente del texto del botón */
+  transition: background-color 0.3s ease;
+}
+
+.btn-conocenos:hover {
+  background-color: #027B76; /* Color de fondo del botón al pasar el cursor */
+}
+
+/* Estilo para el contenedor del video */
+.video-container {
+  flex-shrink: 0;
+}
+
+/* Estilo para el iframe */
+.video-container iframe {
+  max-width: 100%;
+}
+
+.cualidades {
+  background-color: #027B76;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 80px;
+}
+
+.cualidades-titulo {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.columnas{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.costo{
+  padding: 25px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.costo img {
+  width: 70px;
+}
+
+.costo .titulo {
+  font-size: 30px;
+}
+
+.costo .descripcion{
+  font-size: 18px;
+}
+
+.calidad{
+  padding: 25px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.calidad img {
+  width: 70px;
+}
+
+.calidad .titulo {
+  font-size: 30px;
+}
+
+.calidad .descripcion{
+  font-size: 18px;
+}
+
+.procesos{
+  padding: 25px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.procesos img {
+  width: 70px;
+}
+
+.procesos .titulo {
+  font-size: 30px;
+}
+
+.procesos .descripcion{
+  font-size: 18px;
+}
+
+/*
+.costo,
+.calidad,
+.procesos {
+  padding: 25px;
+  margin: 0 10px;
+  
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+  */
+
+  /* Contenedor principal de política de calidad */
+/* Contenedor principal de política de calidad */
+.politica-calidad {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px; /* Ajusta este valor si deseas más espacio alrededor del contenedor */
+  padding: 20px;
+  gap: 10px; /* Añade espacio entre las dos secciones */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Imagen de política a la izquierda */
+.img-politica {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+/* Contenedor de texto y otras imágenes a la derecha */
+.politica-calidad-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinea todos los elementos al inicio del contenedor */
+  text-align: left; /* Alinea el texto a la izquierda */
+  padding: 20px;
+}
+
+/* Contenedor para la imagen y el h2 alineados en fila */
+.header-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Ajusta el espacio entre la imagen y el h2 si es necesario */
+}
+
+/* Imagen de vaca y h2 dentro de header-content */
+.header-content img {
+  max-width: 40px; /* Ajusta este valor según sea necesario */
+  height: auto;
+  margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+/* Justificación del texto en el párrafo */
+.politica-calidad-container p {
+  text-align: justify;
+  /* Opcional: agregar un poco de margen para mejorar la legibilidad */
+  margin: 0;
+  max-width: 500px;
+  font-size: 18px;
+}
+
+/* Imagenes responsivas */
+.img-politica img {
+  width: 550px;
+  height: auto;
+}

@@ -1,0 +1,79 @@
+.header {
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.contact-info p {
+  margin: 0;
+  padding: 0;
+}
+
+.phone-info {
+  display: flex;
+  align-items: center;
+}
+
+.phone-info p {
+  margin-left: 5px;
+}
+
+.whatsapp-link img {
+  height: 24px;
+  width: 24px;
+}
+
+.nav {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav ul li {
+  position: relative;
+}
+
+.nav ul li a {
+  display: block;
+  padding: 15px 20px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  background-color: #027B76;
+  color:white;
+  transition: all 0.3s;
+}

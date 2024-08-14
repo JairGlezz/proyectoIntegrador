@@ -1,0 +1,32 @@
+.statistics {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.statistics h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.chart-container {
+  position: relative;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.fill-level {
+  margin-bottom: 20px;
+}
+
+.fill-bar {
+  height: 30px;
+  background-color: #007BFF;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+}

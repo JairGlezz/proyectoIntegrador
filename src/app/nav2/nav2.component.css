@@ -1,0 +1,45 @@
+/* Contenedor principal del componente */
+.nav2-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: px;
+  background-color: #027B76;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo del botón de inicio de sesión */
+.login-button {
+  padding: 10px 20px;
+  font-size: 12px;
+  color: white;
+  background-color: #004D80; /* Color del botón, puedes cambiarlo */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.login-button:hover {
+  background-color: #0056b3; /* Color al pasar el ratón, puedes cambiarlo */
+  transition: all 0.2s;
+}
+
+/* Estilo del mensaje de registro */
+.register-message {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.register-message a {
+  color: #c9c9c9; /* Color del enlace, puedes cambiarlo */
+  text-decoration: none;
+}
+
+.register-message a:hover {
+  text-decoration: underline; /* Subrayado en el estado hover */
+}

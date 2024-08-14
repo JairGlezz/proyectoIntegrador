@@ -1,0 +1,165 @@
+.titulo-conocenos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-conocenos .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo-conocenos img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.titulo-conocenos h2{
+  color: #027B76;
+}
+
+.titulo-conocenos h2, .titulo-conocenos h1 {
+  margin: 0;
+}
+
+.titulo-conocenos h1 {
+  margin-top: 20px;
+  color: #004E7F;
+}
+
+.videos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Añade un espacio entre los videos */
+  margin: 20px 0; /* Añade un margen alrededor del contenedor */
+  background-color: #027B76;
+}
+
+.videos-container iframe {
+  max-width: 100%;
+  padding: 40px;
+}
+
+.historia-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.historia-container .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.historia-container img {
+  margin-right: 10px;
+  width: 40px;
+}
+
+.historia-container h2{
+  color: #027B76;
+}
+
+.historia-container h2, .historia-container h1 {
+  margin: 0;
+}
+
+.historia-container h1 {
+  margin-top: 20px;
+  color: #004E7F;
+}
+
+.historia-container p{
+  max-width: 1200px;
+  font-size: 18px;
+}
+
+.creencias-container{
+  background-color: #027B76;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 80px;
+}
+
+.creencias-titulo{
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.columnas{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.mision-card{
+  padding: 25px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mision-card img {
+  width: 70px;
+}
+
+.mision-card .titulo {
+  font-size: 30px;
+}
+
+.mision-card .descripcion{
+  font-size: 18px;
+}
+
+.vision-card{
+  padding: 25px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.vision-card img {
+  width: 70px;
+}
+
+.vision-card .titulo {
+  font-size: 30px;
+}
+
+.vision-card .descripcion{
+  font-size: 18px;
+}
+
+.valores-card{
+  padding: 25px;
+  margin: 0 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.valores-card img {
+  width: 70px;
+}
+
+.valores-card .titulo {
+  font-size: 30px;
+}
+
+.valores-card .descripcion{
+  font-size: 18px;
+}

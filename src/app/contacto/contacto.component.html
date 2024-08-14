@@ -1,0 +1,91 @@
+<app-nav2></app-nav2>
+<app-nav></app-nav>
+
+<div class="img-cerdo">
+  <img src="assets/cerdo.png" alt="Cerdo">
+  <h2>MPG Alimentos</h2>
+  <h1>Contacto</h1>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="contactanos">
+  <img src="assets/vaca.png" alt="vaca">
+  <h3>Contáctanos</h3>
+</div>
+<div class="solicita">
+  <h1>¡Solicita tu <br>
+    Cotización! Será un <br>
+    placer atenderte.
+  </h1>
+</div>
+
+<div class="card-container">
+  <div class="card">
+    <img src="assets/mapa2.png" alt="Domicilio">
+    <h3>Domicilio</h3>
+    <p>Paseo de la Calera #15, Col. Jardines de la Calera, 45676, Tlajomulco de Zúñiga, Jalisco.</p>
+  </div>
+  <div class="card">
+    <img src="assets/correo.png" alt="Correo">
+    <h3>Correo</h3>
+    <p>{{ correo }}</p>
+    <p>{{correo2}}</p>
+  </div>
+  <div class="card">
+    <img src="assets/telefono.png" alt="Número">
+    <h3>Número</h3>
+    <p>{{numero}}</p>
+  </div>
+  <div class="card">
+    <img src="assets/whatsaapp.png" alt="WhatsApp">
+    <h3>WhatsApp</h3>
+    <p>{{whatsapp}}</p>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="escribenos">
+  <div class="img-pollo">
+    <img src="assets/pollo.png" alt="">
+    <h3>Escríbenos</h3>
+  </div>
+
+  <div class="dudas-form">
+    <h1>Envía tus dudas o comentarios.</h1>
+    <form action="" method="post">
+      <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+      </div>
+      <div class="form-group">
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+      <div class="form-group">
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+      </div>
+      <div class="form-group">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<app-footer></app-footer>
+<app-footer2></app-footer2>

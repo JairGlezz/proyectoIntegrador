@@ -1,0 +1,119 @@
+<app-header-admin></app-header-admin>
+
+<main class="admin-main">
+  <div class="product-form">
+    <h2>Agregar Productos</h2>
+    <form action="" id="addProductForm">
+      <div class="form-group">
+        <label for="productName">Nombre del Producto</label>
+        <input type="text" id="productName" name="productName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="productDescription">Descripción</label>
+        <textarea id="productDescription" name="productDescription" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="productCategory">Categoría</label>
+        <select id="productCategory" name="productCategory" required>
+          <option value="">Selecciona una opcion</option>
+          <option value="cerdo">Cerdo</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="productType">Tipo de Comida</label>
+        <select id="productType" name="productType" required>
+          <option value="">Selecciona el Tipo de Comida</option>
+          <option value="nacimiento">Nacimiento</option>
+          <option value="crecimiento">Crecimiento</option>
+          <option value="engorda">Engorda</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="productWeight">Peso/Tamaño</label>
+        <input type="text" id="productWeight" name="productWeight" required>
+      </div>
+
+      <div class="form-group">
+        <label for="productPrice">Precio</label>
+        <input type="number" id="productPrice" name="productPrice" required>
+      </div>
+
+      <div class="form-group">
+        <label for="productImage">Imagen del Producto</label>
+        <input type="file" id="productImage" name="productImage" accept="image/*">
+      </div>
+
+      <button type="submit">Agregar Producto</button>
+    </form>
+    <br><br>
+    <br><br>
+    <br><br>
+
+    <div class="product-list">
+      <h2>Listado de Productos</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Descripción</th>
+            <th>Categoría</th>
+            <th>Tipo</th>
+            <th>Peso/Tamaño</th>
+            <th>Precio</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="productTableBody">
+
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Formulario para actualizar productos -->
+  <div class="product-form update-form">
+    <h2>Actualizar Producto</h2>
+    <form id="updateProductForm">
+      <div class="form-group">
+        <label for="updateProductName">Nombre del Producto</label>
+        <input type="text" id="updateProductName" name="updateProductName" required>
+      </div>
+      <div class="form-group">
+        <label for="updateProductDescription">Descripción</label>
+        <textarea id="updateProductDescription" name="updateProductDescription" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="updateProductCategory">Categoría</label>
+        <select id="updateProductCategory" name="updateProductCategory" required>
+          <option value="">Selecciona una opción</option>
+          <option value="cerdo">Cerdo</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="updateProductType">Tipo de Comida</label>
+        <select id="updateProductType" name="updateProductType" required>
+          <option value="nacimiento">Nacimiento</option>
+          <option value="crecimiento">Crecimiento</option>
+          <option value="engorda">Engorda</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="updateProductWeight">Peso/Tamaño</label>
+        <input type="text" id="updateProductWeight" name="updateProductWeight" required>
+      </div>
+      <div class="form-group">
+        <label for="updateProductPrice">Precio</label>
+        <input type="number" id="updateProductPrice" name="updateProductPrice" required>
+      </div>
+      <div class="form-group">
+        <label for="updateProductImage">Imagen del Producto</label>
+        <input type="file" id="updateProductImage" name="updateProductImage" accept="image/*">
+      </div>
+      <button type="submit">Actualizar Producto</button>
+    </form>
+  </div>
+</main>

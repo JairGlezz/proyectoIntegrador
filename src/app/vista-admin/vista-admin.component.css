@@ -1,0 +1,36 @@
+.admin-main {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome-panel, .activity-summary, .quick-links{
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-panel h2, .activity-summary h3, .quick-links h3 {
+  margin-top: 0;
+}
+
+.activity-summary ul, .quick-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-summary ul li, .quick-links ul li {
+  margin-bottom: 10px;
+}
+
+.quick-links ul li a {
+  color: #027B76;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.quick-links ul li a:hover {
+  background-color: #027B76;
+  color: white;
+}

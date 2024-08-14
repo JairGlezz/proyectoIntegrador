@@ -1,0 +1,75 @@
+footer{
+  background-color: #027B76;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container{
+  display: flex;
+  gap: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+}
+
+.footer-nosotros{
+  max-width: 300px;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.footer-mapa{
+  font-size: 18px;
+}
+
+.footer-mapa ul{
+  list-style: none;
+}
+
+.footer-mapa ul li{
+  margin-bottom: 30px;
+}
+
+.footer-mapa ul a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-mapa ul a:hover{
+  color: #004D80;
+  transition: all 0.2s;
+}
+
+.footer-productos{
+  font-size: 18px;
+}
+
+.footer-productos ul{
+  list-style: none;
+}
+
+.footer-productos ul a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-productos ul a:hover{
+  color: #004D80;
+  transition: all 0.2s;
+}
+
+.footer-nosotros .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Espacio entre los íconos */
+  margin-top: 10px; /* Espacio encima de los íconos */
+}
+
+.footer-nosotros .social-icons a {
+  display: block; /* Asegura que los enlaces ocupen el espacio necesario */
+}
+
+.footer-nosotros .social-icons img {
+  width: 24px; /* Ajusta el tamaño de los íconos según sea necesario */
+  height: 24px;
+  vertical-align: middle; /* Alinea verticalmente los íconos */
+}
